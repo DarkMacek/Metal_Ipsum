@@ -1,3 +1,11 @@
+/*
+ * This is a variation on exec: it shoots out
+ * every possible lyric-line made by the program
+ * into a file called METAL.txt or something
+ * similar. It also prints out the number of nano-seconds
+ * taken. 
+ */
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.io.BufferedWriter;

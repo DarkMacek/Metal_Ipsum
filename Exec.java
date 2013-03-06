@@ -1,3 +1,9 @@
+/*
+ * This will create n stanzas of m-lines each of 
+ * randomly created metal lyrics. If unspecified by
+ * the command line, n=m=4. Have fun!
+ */
+
 import java.util.Random;
 import java.util.ArrayList;
 import java.io.BufferedWriter;
