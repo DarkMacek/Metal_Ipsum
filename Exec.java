@@ -60,7 +60,7 @@ public class Exec{
        beginnings.add("Into the darkness, ");
        beginnings.add("In the end of time, ");
        beginnings.add("In the end, ");
-       
+       beginnings.add("For Satan, "); 
        
        middle.add("we fight for ");
        middle.add("we cry for ");
@@ -75,10 +75,12 @@ public class Exec{
        middle.add("we fly onwards for ");
        middle.add("we ride for ");
        middle.add("silenced by ");
+       middle.add("lives lost for ");
+       middle.add("all fall to ");
        
        
-       
-       
+       ends.add("AVE SATANAS!");
+       ends.add("Shemhamforash.");
        ends.add("the glory of man!");
        ends.add("putrefaction.");
        ends.add("SATAN!");

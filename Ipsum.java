@@ -52,7 +52,8 @@ public class Ipsum{
        System.out.println("Total size is " + totalSize);
        BufferedWriter buf = null;
        while(totalCombos.size() < totalSize){
-            temp = getNextLine();
+            //holy shit this is inefficient
+	    temp = getNextLine();
             if(!totalCombos.contains(temp))
                 totalCombos.add(temp);
        }
