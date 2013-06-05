@@ -60,7 +60,8 @@ public class Exec{
        beginnings.add("Into the darkness, ");
        beginnings.add("In the end of time, ");
        beginnings.add("In the end, ");
-       beginnings.add("For Satan, "); 
+       beginnings.add("For Satan, ");
+       beginnings.add("Welcome to our convent, where "); 
        
        middle.add("we fight for ");
        middle.add("we cry for ");
