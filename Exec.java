@@ -61,8 +61,11 @@ public class Exec{
        beginnings.add("In the end of time, ");
        beginnings.add("In the end, ");
        beginnings.add("For Satan, ");
-       beginnings.add("Welcome to our convent, where "); 
-       
+       beginnings.add("Welcome to our convent, where ");
+       beginnings.add("Feel at home in our black conventicle, where "); 
+       beginnings.add("Don't summon the devil, don't call the priest, if you need the strength, then ");
+
+       middle.add("we anathematise ");
        middle.add("we fight for ");
        middle.add("we cry for ");
        middle.add("we die for ");
@@ -93,6 +96,8 @@ public class Exec{
        ends.add("the fight of our lifetime!");
        ends.add("the darkness.");
        ends.add("the blackest of hearts.");
+       ends.add("Mephisto's hall of fame");
+       ends.add("the infernal depths!");
        
    }
    
