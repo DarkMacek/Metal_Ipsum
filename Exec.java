@@ -41,9 +41,9 @@ public class Exec{
             System.exit(1);
        }
 
-       System.out.printf("Beginnings size: %d\n", beginnings.size());
-       System.out.printf("Middle size: %d\n", middle.size());
-       System.out.printf("Ends size: %d\n", ends.size());
+       //System.out.printf("Beginnings size: %d\n", beginnings.size());
+       //System.out.printf("Middle size: %d\n", middle.size());
+       //System.out.printf("Ends size: %d\n", ends.size());
        
     
     }
@@ -91,7 +91,10 @@ public class Exec{
        middle.add("malevolence paves the way for ");
        middle.add("hellish fiends bite: ");
        middle.add("monstrous beings created within ");
-       
+       middle.add("we burn in hell for ");
+       middle.add("you're going to regret ");
+       middle.add("pestilence reeks for ");
+
        ends.add("Cthulu!");
        ends.add("Baphomet's call");
        ends.add("Baphomet");
@@ -108,12 +111,14 @@ public class Exec{
        ends.add("the fight of our lifetime!");
        ends.add("the darkness.");
        ends.add("the blackest of hearts.");
-       ends.add("Mephisto's hall of fame");
+       ends.add("Mephisto's hall of fame.");
        ends.add("the infernal depths!");
-       ends.add("wisdom undefiled");
-       ends.add("vile abominations");
-       ends.add("accursed enemies of ambition");
-       ends.add("subterranean resistance cult");
+       ends.add("wisdom undefiled!");
+       ends.add("vile abominations.");
+       ends.add("accursed enemies of ambition.");
+       ends.add("subterranean resistance cult.");
+       ends.add("children of the damned!");
+       ends.add("flames diabolical");
    }
    
    public static String getNextLine(){
