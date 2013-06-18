@@ -40,6 +40,10 @@ public class Exec{
             System.out.println("Integers only, dumbass");
             System.exit(1);
        }
+
+       System.out.printf("Beginnings size: %d\n", beginnings.size());
+       System.out.printf("Middle size: %d\n", middle.size());
+       System.out.printf("Ends size: %d\n", ends.size());
        
     
     }
@@ -64,6 +68,9 @@ public class Exec{
        beginnings.add("Welcome to our convent, where ");
        beginnings.add("Feel at home in our black conventicle, where "); 
        beginnings.add("Don't summon the devil, don't call the priest, if you need the strength, then ");
+       beginnings.add("Welcome to our sanguinary sect of worship, where ");
+       beginnings.add("My bones are decayed, my flesh it doth rot, ");
+       beginnings.add("Bodies convulse and mangle in pain, ");
 
        middle.add("we anathematise ");
        middle.add("we fight for ");
@@ -79,10 +86,15 @@ public class Exec{
        middle.add("we fly onwards for ");
        middle.add("we ride for ");
        middle.add("silenced by ");
-       middle.add("lives lost for ");
+       middle.add("lives are lost for ");
        middle.add("all fall to ");
+       middle.add("malevolence paves the way for ");
+       middle.add("hellish fiends bite: ");
+       middle.add("monstrous beings created within ");
        
-       
+       ends.add("Cthulu!");
+       ends.add("Baphomet's call");
+       ends.add("Baphomet");
        ends.add("AVE SATANAS!");
        ends.add("Shemhamforash.");
        ends.add("the glory of man!");
@@ -98,7 +110,10 @@ public class Exec{
        ends.add("the blackest of hearts.");
        ends.add("Mephisto's hall of fame");
        ends.add("the infernal depths!");
-       
+       ends.add("wisdom undefiled");
+       ends.add("vile abominations");
+       ends.add("accursed enemies of ambition");
+       ends.add("subterranean resistance cult");
    }
    
    public static String getNextLine(){
