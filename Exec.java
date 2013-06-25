@@ -85,6 +85,7 @@ public class Exec{
        middle.add("locked in a prison with nothing but ");
        middle.add("we fly onwards for ");
        middle.add("we ride for ");
+       middle.add("we use vim for ");
        middle.add("silenced by ");
        middle.add("lives are lost for ");
        middle.add("all fall to ");
@@ -118,6 +119,7 @@ public class Exec{
        ends.add("accursed enemies of ambition.");
        ends.add("subterranean resistance cult.");
        ends.add("children of the damned!");
+       ends.add("vile emacs users!");
        ends.add("flames diabolical");
    }
    
